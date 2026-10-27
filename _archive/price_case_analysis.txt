@@ -1,0 +1,59 @@
+====================================================================================================
+price 字段语义判定（以有 orig + pct 的行为样本）
+====================================================================================================
+样本 n = 5032
+  CASE3_不可信          3312  (65.82%)
+  CASE1_折后价          1714  (34.06%)
+  CASE2_原价              6  (0.12%)
+
+CASE-3（price 不可信）的样本 —— 按 price 降序前 25:
+----------------------------------------------------------------------------------------------------
+CASE3 总计 3312 行, 其中 price>100: 2
+  price=   194.99 orig=      7.8 pct=98.0% pred_final=     0.16 final=           nan | Hidden World 4 Top-Down 3D
+  price=   194.99 orig=      7.8 pct=98.0% pred_final=     0.16 final=           nan | Hidden Harbor 3 Top-Down 3D
+  price=    79.98 orig=   106.57 pct=18.0% pred_final=    87.39 final=           nan | Clickteam Fusion 2.5
+  price=    77.99 orig=   152.18 pct=15.0% pred_final=   129.35 final=           6.2 | RPG Maker MZ
+  price=    77.99 orig=   140.38 pct=10.0% pred_final=   126.34 final=           6.2 | RPG Maker MV
+  price=    73.99 orig=   110.98 pct=25.0% pred_final=    83.24 final=           nan | DCS: F/A-18C Hornet
+  price=    73.99 orig=    84.58 pct=10.0% pred_final=    76.12 final=           nan | Gary Grigsby's War in the West
+  price=    73.99 orig=   110.98 pct=25.0% pred_final=    83.24 final=           nan | DCS: F-14A/B Tomcat
+  price=    67.99 orig=   101.98 pct=25.0% pred_final=    76.48 final=           nan | Command: Modern Operations
+  price=    59.99 orig=   134.34 pct=20.0% pred_final=   107.47 final=           nan | The Legend of Heroes: Kuro no Kiseki
+  price=    59.99 orig=   948.65 pct=10.0% pred_final=   853.78 final=           nan | Call of Duty®: WWII
+  price=    59.99 orig=   116.55 pct=11.0% pred_final=   103.73 final=           nan | Sniper Elite 4
+  price=    59.99 orig=    83.32 pct=46.0% pred_final=    44.99 final=           nan | 英雄伝説 黎の軌跡Ⅱ -CRIMSON SiN-
+  price=    59.99 orig=    79.16 pct=11.0% pred_final=    70.45 final=           nan | AI: THE SOMNIUM FILES - nirvanA Init
+  price=    59.99 orig=   130.64 pct=14.0% pred_final=   112.35 final=           nan | Jurassic World Evolution 2
+  price=    59.99 orig=   195.91 pct=20.0% pred_final=   156.73 final=           nan | Fallout 4 VR
+  price=    59.99 orig=    98.77 pct=24.0% pred_final=    75.07 final=           nan | Lost Judgment
+  price=    59.99 orig=    13.95 pct=20.0% pred_final=    11.16 final=           nan | BERSERK and the Band of the Hawk
+  price=    59.99 orig=    79.96 pct=20.0% pred_final=    63.97 final=           nan | The Legend of Heroes: Trails of Cold
+  price=    59.99 orig=   139.46 pct=10.0% pred_final=   125.51 final=           nan | Anno 1800
+  price=    59.99 orig=    49.35 pct=48.0% pred_final=    25.66 final=           nan | Forza Horizon 5
+  price=    59.99 orig=      7.1 pct=20.0% pred_final=     5.68 final=           nan | Crystar
+  price=    59.99 orig=    81.84 pct=30.0% pred_final=    57.29 final=           nan | Total War: THREE KINGDOMS
+  price=    59.99 orig=    99.58 pct=17.0% pred_final=    82.65 final=           nan | Ghostwire: Tokyo
+  price=    59.99 orig=    99.58 pct=17.0% pred_final=    82.65 final=           nan | DEATHLOOP
+
+====================================================================================================
+CASE-3 中 price 与 pred_final 的偏离倍数分布
+====================================================================================================
+  ratio 分位: {'count': 3312.0, 'mean': 1.49, 'std': 31.19, 'min': 0.01, '5%': 0.06, '25%': 0.21, '50%': 0.45, '75%': 0.78, '95%': 1.19, 'max': 1218.69}
+
+====================================================================================================
+关键：这些 CASE-3 行能否用 orig*(1-pct) 反推价格？
+====================================================================================================
+  可反推行数: 3312 / CASE3 3312
+  反推后 price 分位: {'count': 3312.0, 'mean': 52.87, 'std': 83.7, 'min': 0.02, '25%': 17.77, '50%': 30.08, '75%': 54.17, '95%': 156.73, 'max': 853.78}
+
+  反推值 vs 同 developer 同系列游戏的实际 price —— 交叉验证样本:
+    Hidden World 4 Top-Down 3D               dev=Top-Down Games         pred=    0.16 同开发者其他游戏price=[9.75, 9.75, 9.75, 9.75, 19.49, 8.49]
+    Hidden Harbor 3 Top-Down 3D              dev=Aztech                 pred=    0.16 同开发者其他游戏price=[9.75, 9.75, 194.99, 9.75, 9.75]
+
+====================================================================================================
+最终策略评估
+====================================================================================================
+  CASE1 (price=折后价，可信): 1714
+  CASE2 (price=原价，可信):   6
+  CASE3 (不可信):            3312
+  -> CASE1 占多数，证明 price 字段的语义确实是「当前售价/折后价」

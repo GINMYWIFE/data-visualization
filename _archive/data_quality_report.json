@@ -1,0 +1,361 @@
+{
+  "shape": [
+    10948,
+    25
+  ],
+  "columns": [
+    "Unnamed: 0",
+    "is_dlc",
+    "img_src",
+    "short_description",
+    "recent_reviews",
+    "recent_reviews_count",
+    "all_reviews",
+    "all_reviews_count",
+    "reviews_anomally",
+    "release_date",
+    "developer",
+    "developer_url",
+    "publisher",
+    "publisher_url",
+    "tags",
+    "discount_original_price",
+    "discount_final_price",
+    "discount",
+    "price",
+    "game_content",
+    "name",
+    "genre",
+    "website",
+    "metacritic_score",
+    "metacritic_url"
+  ],
+  "dtypes": {
+    "Unnamed: 0": "int64",
+    "is_dlc": "bool",
+    "img_src": "str",
+    "short_description": "str",
+    "recent_reviews": "str",
+    "recent_reviews_count": "str",
+    "all_reviews": "str",
+    "all_reviews_count": "str",
+    "reviews_anomally": "bool",
+    "release_date": "str",
+    "developer": "str",
+    "developer_url": "str",
+    "publisher": "str",
+    "publisher_url": "str",
+    "tags": "str",
+    "discount_original_price": "str",
+    "discount_final_price": "str",
+    "discount": "str",
+    "price": "str",
+    "game_content": "str",
+    "name": "str",
+    "genre": "str",
+    "website": "str",
+    "metacritic_score": "float64",
+    "metacritic_url": "str"
+  },
+  "missing": {
+    "short_description": {
+      "n": 1918,
+      "pct": 17.52
+    },
+    "recent_reviews": {
+      "n": 428,
+      "pct": 3.91
+    },
+    "recent_reviews_count": {
+      "n": 428,
+      "pct": 3.91
+    },
+    "all_reviews": {
+      "n": 6936,
+      "pct": 63.35
+    },
+    "all_reviews_count": {
+      "n": 6936,
+      "pct": 63.35
+    },
+    "release_date": {
+      "n": 11,
+      "pct": 0.1
+    },
+    "developer": {
+      "n": 5,
+      "pct": 0.05
+    },
+    "developer_url": {
+      "n": 5,
+      "pct": 0.05
+    },
+    "publisher": {
+      "n": 386,
+      "pct": 3.53
+    },
+    "publisher_url": {
+      "n": 384,
+      "pct": 3.51
+    },
+    "discount_original_price": {
+      "n": 5421,
+      "pct": 49.52
+    },
+    "discount_final_price": {
+      "n": 9034,
+      "pct": 82.52
+    },
+    "discount": {
+      "n": 5016,
+      "pct": 45.82
+    },
+    "price": {
+      "n": 9,
+      "pct": 0.08
+    },
+    "game_content": {
+      "n": 7815,
+      "pct": 71.38
+    },
+    "website": {
+      "n": 3076,
+      "pct": 28.1
+    },
+    "metacritic_score": {
+      "n": 9114,
+      "pct": 83.25
+    },
+    "metacritic_url": {
+      "n": 9114,
+      "pct": 83.25
+    }
+  },
+  "duplicates": {
+    "full_row": 0,
+    "by_name": 7
+  },
+  "price_stats": {
+    "count": 9548.0,
+    "mean": 22.61,
+    "std": 29.7,
+    "min": 0.72,
+    "1%": 0.79,
+    "5%": 2.39,
+    "25%": 7.99,
+    "50%": 14.99,
+    "75%": 29.99,
+    "95%": 75.0,
+    "99%": 90.0,
+    "max": 2021.0
+  },
+  "price_missing": 1400,
+  "final_price_missing": 9034,
+  "orig_price_missing": 5421,
+  "discount_consistency": {
+    "n_checked": 1911,
+    "match_rate": 98.53
+  },
+  "price_anomaly": {
+    "negative_price": 0,
+    "zero_price": 0,
+    "free_final_lt1": 221
+  },
+  "review_text_values": {
+    "recent": {
+      "Muy positivas": 4394,
+      "Variadas": 1804,
+      "Mayormente positivas": 1686,
+      "Positivas": 872,
+      "Extremadamente positivas": 343,
+      "1 reseña(s) de usuario(s)": 215,
+      "2 reseña(s) de usuario(s)": 207,
+      "Mayormente negativas": 172,
+      "3 reseña(s) de usuario(s)": 149,
+      "4 reseña(s) de usuario(s)": 143
+    },
+    "all": {
+      "Muy positivas": 2290,
+      "Mayormente positivas": 632,
+      "Extremadamente positivas": 595,
+      "Variadas": 431,
+      "Positivas": 31,
+      "Mayormente negativas": 29,
+      "Muy negativas": 2,
+      "Extremadamente negativas": 2
+    }
+  },
+  "review_pct_missing": {
+    "recent_pct_unparsed": 10520,
+    "all_pct_unparsed": 4012
+  },
+  "review_count_logic": {
+    "n": 4012,
+    "recent_gt_all": 0
+  },
+  "reviews_anomally": {
+    "false": 10858,
+    "true": 90
+  },
+  "genre_top20": {
+    "Acción": 4809,
+    "Aventura": 1693,
+    "Indie": 1296,
+    "Casual": 1140,
+    "Simuladores": 654,
+    "Rol": 381,
+    "Estrategia": 346,
+    "Carreras": 299,
+    "Free to Play": 171,
+    "Deportes": 88,
+    "Multijugador masivo": 46,
+    "Animación y modelado": 9,
+    "Utilidades": 6,
+    "Diseño e ilustración": 5,
+    "Acceso anticipado": 1,
+    "Desarrollo de juegos": 1,
+    "Producción de audio": 1,
+    "Educación": 1,
+    "Producción de vídeo": 1
+  },
+  "n_genres": 19,
+  "developer_top10": {
+    "SmiteWorks USA, LLC": 146,
+    "CAPCOM Co., Ltd.": 80,
+    "Maxis": 64,
+    "Paradox Development Studio": 63,
+    "Square Enix": 56,
+    "Milestone S.r.l.": 54,
+    "KOEI TECMO GAMES CO., LTD.": 49,
+    "Playground Games": 41,
+    "CREATIVE ASSEMBLY": 39,
+    "Kairosoft Co.,Ltd": 39
+  },
+  "n_developers": 6070,
+  "n_publishers": 4611,
+  "n_tags": 10948,
+  "tags_top20": {
+    "Un jugador": 6762,
+    "Acción": 5201,
+    "Indie": 4670,
+    "Aventura": 4371,
+    "Simulación": 4043,
+    "Estrategia": 3566,
+    "Casuales": 3144,
+    "Multijugador": 3015,
+    "Rol": 2943,
+    "2D": 2688,
+    "Ambientales": 2377,
+    "Buena trama": 2067,
+    "3D": 1909,
+    "Fantasía": 1806,
+    "Primera persona": 1651,
+    "Mundo abierto": 1643,
+    "Cooperativos": 1641,
+    "Exploración": 1579,
+    "Acceso anticipado": 1579,
+    "Disparos": 1499
+  },
+  "n_unique_tags": 441,
+  "is_dlc": {
+    "false": 9030,
+    "true": 1918
+  },
+  "release_date": {
+    "parsed": 7227,
+    "unparsed": 3721,
+    "min": "1987-09-07",
+    "max": "2023-03-31",
+    "by_year": {
+      "1987.0": 1,
+      "1988.0": 1,
+      "1990.0": 1,
+      "1992.0": 2,
+      "1993.0": 1,
+      "1994.0": 5,
+      "1995.0": 3,
+      "1996.0": 8,
+      "1997.0": 17,
+      "1998.0": 6,
+      "1999.0": 12,
+      "2000.0": 16,
+      "2001.0": 19,
+      "2002.0": 14,
+      "2003.0": 21,
+      "2004.0": 20,
+      "2005.0": 27,
+      "2006.0": 39,
+      "2007.0": 30,
+      "2008.0": 35,
+      "2009.0": 67,
+      "2010.0": 62,
+      "2011.0": 70,
+      "2012.0": 102,
+      "2013.0": 120,
+      "2014.0": 223,
+      "2015.0": 261,
+      "2016.0": 379,
+      "2017.0": 449,
+      "2018.0": 496,
+      "2019.0": 554,
+      "2020.0": 797,
+      "2021.0": 1111,
+      "2022.0": 1524,
+      "2023.0": 734
+    }
+  },
+  "metacritic": {
+    "notna": 1834,
+    "pct": 16.75,
+    "stats": {
+      "count": 1834.0,
+      "mean": 76.45,
+      "std": 8.9,
+      "min": 23.0,
+      "25%": 72.0,
+      "50%": 78.0,
+      "75%": 82.0,
+      "max": 97.0
+    }
+  },
+  "corr": {
+    "price_vs_allpct": NaN,
+    "price_vs_recentpct": NaN,
+    "reviewcount_vs_allpct": NaN,
+    "price_vs_allcount": NaN,
+    "metacritic_vs_allpct": NaN
+  },
+  "price_iqr_outliers": {
+    "q1": 7.99,
+    "q3": 29.99,
+    "upper_fence": 62.989999999999995,
+    "n_outlier": 712,
+    "pct_outlier": 7.46
+  },
+  "price_3sigma": {
+    "mean": 22.61,
+    "std": 29.7,
+    "upper": 111.71,
+    "n_outlier": 6
+  },
+  "desc_len": {
+    "count": 9030.0,
+    "mean": 212.8,
+    "std": 76.2,
+    "min": 5.0,
+    "25%": 159.0,
+    "50%": 229.0,
+    "75%": 276.8,
+    "max": 342.0
+  },
+  "empty_strings": {
+    "short_description": 1918,
+    "name": 0,
+    "tags": 0
+  },
+  "game_content_sample": [
+    "[{'name': 'Forza Horizon 4: Mitsubishi Car Pack', 'price': 'Gratuito'}, {'name': 'Forza Horizon 4: Welcome Pack', 'price': '2,99€'}, {'name': 'Forza Horizon 4: Hot Wheels™ Legends Car Pack', 'price': '-60%9,99€3,99€'}, {'name': 'Forza Horizon 4: Fortune Island', 'price': '-60%19,99€7,99€'}, {'name': 'Forza Horizon 4: LEGO® Speed Champions', 'price': '-60%19,99€7,99€'}]",
+    "[{'name': 'The Elder Scrolls Online: Necrom', 'price': '39,99€'}, {'name': 'The Elder Scrolls Online - Newcomer Pack', 'price': '9,99€'}, {'name': 'The Elder Scrolls Online: Paquete Hailcinder Mount', 'price': '24,99€'}, {'name': 'The Elder Scrolls Online - Soundtrack', 'price': '15,99€'}, {'name': 'The Elder Scrolls Online: High Isle', 'price': '29,99€'}]"
+  ],
+  "memory_mb": 22.46
+}

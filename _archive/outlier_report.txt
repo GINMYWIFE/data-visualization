@@ -1,0 +1,168 @@
+price>=100 的记录数: 9
+price>=200 的记录数: 1
+price>=500 的记录数: 1
+price>=1000 的记录数: 1
+
+====================================================================================================
+TOP 25 高价记录完整信息
+====================================================================================================
+
+--- price=2021.0  (原始 price='Car Mechanic Simulator 2021 Demo') ---
+  name        : Car Mechanic Simulator 2021
+  genre       : Carreras   is_dlc=False
+  developer   : Red Dot Games
+  publisher   : PlayWay S.A.
+  release_date: 11 AGO 2021
+  orig_price  : 70,--€
+  final_price : nan
+  discount    : -10%
+  all_reviews : Extremadamente positivas / (18,264)
+  metacritic  : nan
+  website     : nan
+  short_desc  : Ábrete camino hasta la cumbre del sector. Ensúciate las manos en un juego de simulación altamente realista con gran aten
+  game_content: [{'name': 'Car Mechanic Simulator 2021 - Nissan DLC', 'price': '3,99€'}, {'name': 'Car Mechanic Simulator 2021 - Electric Car DLC', 'price': '3,99€'}, {'name': 'Car Mechanic Simulator 2021 - Jaguar DLC', 'price': '4,99€'}, {'name': 'Car Mechanic Simulator 2021 - Land Rover DLC', 'price': '3,99€'}, {'name': 'Car Mechanic Simulator 2021 - Pagani Remastered DLC', 'price': '4,99€'}]
+
+--- price=194.99  (原始 price='194,99€') ---
+  name        : Tanks Logic
+  genre       : Acción   is_dlc=False
+  developer   : Hede
+  publisher   : Hede
+  release_date: 16 NOV 2022
+  orig_price  : nan
+  final_price : nan
+  discount    : -98%
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : nan
+  short_desc  : Un juego en el que controlas un tanque y resuelves acertijos. Necesitas encontrar botones invisibles en el mapa, cuando 
+  game_content: nan
+
+--- price=194.99  (原始 price='194,99€') ---
+  name        : Hidden Harbor 3 Top-Down 3D
+  genre       : Acción   is_dlc=False
+  developer   : Aztech
+  publisher   : Azerbaijan Technology
+  release_date: 22 MAR 2023
+  orig_price  : 7,80€
+  final_price : nan
+  discount    : -98%
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : nan
+  short_desc  : Encuentra los objetos que están ocultos en el mapa.
+  game_content: nan
+
+--- price=194.99  (原始 price='194,99€') ---
+  name        : Hidden World 4 Top-Down 3D
+  genre       : Acción   is_dlc=False
+  developer   : Top-Down Games
+  publisher   : Hede
+  release_date: 23 MAR 2023
+  orig_price  : 7,80€
+  final_price : nan
+  discount    : -98%
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : nan
+  short_desc  : Encuentra los objetos que están ocultos en el mapa.
+  game_content: nan
+
+--- price=194.99  (原始 price='194,99€') ---
+  name        : Hidden Harbor 2 Top-Down 3D
+  genre       : Acción   is_dlc=False
+  developer   : Aztech
+  publisher   : Azerbaijan Technology
+  release_date: 15 NOV 2022
+  orig_price  : nan
+  final_price : nan
+  discount    : -98%
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : nan
+  short_desc  : Encuentra los objetos que están ocultos en el mapa.
+  game_content: nan
+
+--- price=126.99  (原始 price='126,99€') ---
+  name        : ChessBase 17 Steam Edition
+  genre       : Deportes   is_dlc=False
+  developer   : ChessBase GmbH
+  publisher   : ChessBase GmbH
+  release_date: 13 FEB 2023
+  orig_price  : nan
+  final_price : nan
+  discount    : nan
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : https://download.chessbase.com/download/pdf/cb17-eng.pdf
+  short_desc  : ChessBase is a personal, stand-alone chess database that has become the standard throughout the world. Everyone uses Che
+  game_content: nan
+
+--- price=102.28  (原始 price='102,28€') ---
+  name        : Fantasy Grounds Classic - Ultimate Upgrade
+  genre       : Indie   is_dlc=True
+  developer   : SmiteWorks USA, LLC
+  publisher   : nan
+  release_date: 23 MAY 2014
+  orig_price  : nan
+  final_price : nan
+  discount    : nan
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : http://www.fantasygrounds.com
+  short_desc  : nan
+  game_content: nan
+
+--- price=102.28  (原始 price='102,28€') ---
+  name        : Fantasy Grounds Unity - Ultimate License Upgrade
+  genre       : Indie   is_dlc=True
+  developer   : SmiteWorks USA, LLC
+  publisher   : nan
+  release_date: 27 AGO 2020
+  orig_price  : nan
+  final_price : nan
+  discount    : 136,27€
+  all_reviews : nan / nan
+  metacritic  : nan
+  website     : https://www.fantasygrounds.com
+  short_desc  : nan
+  game_content: nan
+
+--- price=100.0  (原始 price='-100%   0,--€') ---
+  name        : Desktop Dungeons
+  genre       : Aventura   is_dlc=False
+  developer   : QCF Design
+  publisher   : QCF Design
+  release_date: 18 ABR 2023
+  orig_price  : nan
+  final_price : 0,--€
+  discount    : -100%
+  all_reviews : Muy positivas / (1,670)
+  metacritic  : 82.0
+  website     : http://www.desktopdungeons.net
+  short_desc  : Each step into the unknown heals you and reveals new obstacles as you guide fresh heros to glorious retirement or ignomi
+  game_content: [{'name': 'Desktop Dungeons Soundtrack', 'price': '8,99€'}, {'name': 'Desktop Dungeons Goatperson DLC', 'price': '4,99€'}]
+
+====================================================================================================
+200-2100 区间分布
+====================================================================================================
+  [100, 200) : 8
+  [200, 300) : 0
+  [300, 500) : 0
+  [500, 1000) : 0
+  [1000, 3000) : 1
+
+====================================================================================================
+低价高评/高热度的头部爆款（对照组，评价好但价格正常）
+====================================================================================================
+   1,969,821 条评论 |      nan€ | Muy positivas          | Dota 2
+     954,082 条评论 |    19.99€ | Muy positivas          | Tom Clancy's Rainbow Six® Siege
+     948,470 条评论 |      nan€ | Muy positivas          | Team Fortress 2
+     890,569 条评论 |     9.99€ | Extremadamente positivas | Terraria
+     811,581 条评论 |     9.99€ | Extremadamente positivas | Garry's Mod
+     742,591 条评论 |    39.99€ | Muy positivas          | Rust
+     650,056 条评论 |    29.99€ | Extremadamente positivas | The Witcher® 3: Wild Hunt
+     593,611 条评论 |     3.99€ | Extremadamente positivas | Wallpaper Engine
+     580,106 条评论 |     30.0€ | Muy positivas          | Among Us
+     536,841 条评论 |     9.75€ | Extremadamente positivas | Left 4 Dead 2
+     532,595 条评论 |    59.99€ | Mayormente positivas   | Cyberpunk 2077
+     527,128 条评论 |      nan€ | Muy positivas          | Warframe

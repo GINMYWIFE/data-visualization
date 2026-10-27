@@ -1,0 +1,459 @@
+====================================================================================================
+A. price 字段中含字母的字符串（非纯金额）
+====================================================================================================
+数量: 1458
+其中解析出了数值的（误抽取）: 69
+  p=    2021.0 | price='Car Mechanic Simulator 2021 Demo' | name=Car Mechanic Simulator 2021
+  p=     10.99 | price='Oferta de bienvenida 
+
+
+
+
+10,99€ durante un mes, luego 13,99€ al mes
+-21%  Oferta de bienvenida
+Pago inicial de 10,99€, renovación automática cada 1 mes(es) por 13,99€.
+
+
+45,99€ durante 6 meses, luego 65,99€ cada 6 meses
+-30%  Oferta de bienvenida
+Pago inicial de 45,99€, renovación automática cada 6 mes(es) por 65,99€.
+
+
+85,99€ durante 12 meses, luego 125,99€ cada 12 meses
+-31%  Oferta de bienvenida
+Pago inicial de 85,99€, renovación automática cada 12 mes(es) por 125,99€.' | name=iRacing
+  p=       8.0 | price='Try the complete version of the game for 8 hours' | name=CryoFall
+  p=       8.0 | price='8-Bit Adventures 2 Demo' | name=8-Bit Adventures 2
+  p=       5.0 | price='Try to survive the 5 first days on the island!' | name=Dead In Bermuda
+  p=       4.0 | price='Creeper World 4 Demo' | name=Creeper World 4
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Need for Speed™ Most Wanted
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=STAR WARS Jedi: La Orden caída™
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=STAR WARS™ Battlefront™ II
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Battlefield™ 2042
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=STAR WARS™: Squadrons
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Need for Speed™ Heat
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Need for Speed™
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Battlefield™ V
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Titanfall® 2
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=DIRT 5
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Need for Speed™ Rivals
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Burnout™ Paradise Remastered
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=GRID Legends
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Battlefield™ 1
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=STAR WARS™ Battlefront
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=《死亡空间》 (2008)
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Dead Space™ 2
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Mass Effect 3 - Edición Digital Deluxe (2012)
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Mass Effect (2007)
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Rocket Arena
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Alice: Madness Returns
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Unravel Two
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Mirror's Edge™
+  p=      3.99 | price='A partir de 3,99€ al mes 
+
+
+
+
+3,99€ al mes
+ 
+Pago inicial de 3,99€, renovación automática cada 1 mes(es) por 3,99€.
+
+
+24,99€ cada 12 meses
+-48% 
+Pago inicial de 24,99€, renovación automática cada 12 mes(es) por 24,99€.' | name=Mirror's Edge™ Catalyst
+
+====================================================================================================
+B. 含 '0,--€' 或 '--€' 的西语零价格式
+====================================================================================================
+数量: 63
+  price='24,--€' | 解析p=24.0 | discount='-10%' | final='nan' | name=Door Kickers 2: Task Force North
+  price='5,--€' | 解析p=5.0 | discount='-25%' | final='nan' | name=Rising Storm 2: Vietnam
+  price='15,--€' | 解析p=15.0 | discount='-15%' | final='nan' | name=Grim Dawn - Forgotten Gods Expansion
+  price='20,--€' | 解析p=20.0 | discount='nan' | final='nan' | name=RUMBLE
+  price='17,--€' | 解析p=17.0 | discount='-10%' | final='nan' | name=Shieldwall
+  price='3,--€' | 解析p=3.0 | discount='-10%' | final='nan' | name=乡村狂想曲
+  price='38,--€' | 解析p=38.0 | discount='nan' | final='nan' | name=RPG Stories
+  price='9,--€' | 解析p=9.0 | discount='nan' | final='nan' | name=Reincarnated As A Monster
+  price='20,--€' | 解析p=20.0 | discount='nan' | final='nan' | name=The Backrooms: Mass Extinction
+  price='-100%   0,--€' | 解析p=100.0 | discount='-100%' | final='0,--€' | name=Desktop Dungeons
+  price='28,--€' | 解析p=28.0 | discount='nan' | final='nan' | name=Post Scriptum
+  price='-20%12,--€9,60€' | 解析p=20.0 | discount='-20%' | final='9,60€' | name=When The Night Comes
+  price='16,--€' | 解析p=16.0 | discount='nan' | final='nan' | name=Signal Simulator
+  price='14,--€' | 解析p=14.0 | discount='-10%' | final='nan' | name=Element TD 2 - Tower Defense
+  price='7,--€' | 解析p=7.0 | discount='nan' | final='nan' | name=Fort Meow
+  price='29,--€' | 解析p=29.0 | discount='nan' | final='nan' | name=Ashes Cricket
+  price='20,--€' | 解析p=20.0 | discount='nan' | final='nan' | name=FIRE HEAT
+  price='39,--€' | 解析p=39.0 | discount='nan' | final='nan' | name=Sailaway - The Sailing Simulator
+  price='62,--€' | 解析p=62.0 | discount='nan' | final='nan' | name=DCS: Mirage F1
+  price='10,--€' | 解析p=10.0 | discount='-25%' | final='nan' | name=Serious Sam 4
+
+====================================================================================================
+C. price 与 discount_final_price 不一致的行（应完全相等）
+====================================================================================================
+可比对行数: 1744   不一致: 1744 (100.00%)
+  其中 price>final（即 price 是折后价、final 存的是别的价）: 1682
+  其中 price<final: 62
+  p=    100.0 final=      0.0 orig='nan' disc='-100%' | Desktop Dungeons
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | SYNTHETIK: Legion Rising
+  p=     90.0 final=     0.99 orig='9,99€' disc='-90%' | Thunder Wolves
+  p=     90.0 final=     1.67 orig='16,79€' disc='-90%' | Red Wings: Aces of the Sky
+  p=     90.0 final=     2.79 orig='27,99€' disc='-90%' | Warhammer: End Times - Vermintide
+  p=     90.0 final=     1.49 orig='14,99€' disc='-90%' | Escape Dead Island
+  p=     90.0 final=     1.49 orig='14,99€' disc='-90%' | Kingdom: New Lands
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | Mighty No. 9
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | Pure Farming 2018
+  p=     90.0 final=     0.19 orig='1,99€' disc='-90%' | Lamp Head
+  p=     90.0 final=     0.32 orig='3,29€' disc='-90%' | The Shadowland
+  p=     90.0 final=     0.39 orig='3,99€' disc='-90%' | Metamorfose S
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | Ken Follett's The Pillars of the Earth
+  p=     90.0 final=     1.67 orig='16,79€' disc='-90%' | Down in Bermuda
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | Chaos on Deponia
+  p=     90.0 final=     0.99 orig='9,99€' disc='-90%' | Deponia
+  p=     90.0 final=     1.49 orig='14,99€' disc='-90%' | Beat Cop
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | Deponia Doomsday
+  p=     90.0 final=     1.67 orig='16,79€' disc='-90%' | Rise Eterna
+  p=     90.0 final=     1.99 orig='19,99€' disc='-90%' | Mordheim: City of the Damned
+
+====================================================================================================
+D. 价格在 100-200 且折扣 -90% 以上 的可疑行（原价极低但标价高）
+====================================================================================================
+  p=   102.28 | orig='nan' | final='nan' | disc='nan' | Fantasy Grounds Classic - Ultimate Upgrade
+  p=    100.0 | orig='nan' | final='0,--€' | disc='-100%' | Desktop Dungeons
+  p=   102.28 | orig='nan' | final='nan' | disc='136,27€' | Fantasy Grounds Unity - Ultimate License Upgr
+  p=   194.99 | orig='7,80€' | final='nan' | disc='-98%' | Hidden Harbor 3 Top-Down 3D
+  p=   194.99 | orig='nan' | final='nan' | disc='-98%' | Hidden Harbor 2 Top-Down 3D
+  p=   194.99 | orig='7,80€' | final='nan' | disc='-98%' | Hidden World 4 Top-Down 3D
+  p=   194.99 | orig='nan' | final='nan' | disc='-98%' | Tanks Logic
+  p=   126.99 | orig='nan' | final='nan' | disc='nan' | ChessBase 17 Steam Edition
+
+====================================================================================================
+E. price 字符串中不含 € 符号但含数字的行
+====================================================================================================
+数量: 1399
+  price='Datos del pack' | p=nan | name=Borderlands 3
+  price='Descargar' | p=nan | name=EVERSPACE™ 2
+  price='Descargar' | p=nan | name=HITMAN 3
+  price='Datos del pack' | p=nan | name=Halo: The Master Chief Collection
+  price='Free to Play' | p=nan | name=Star Trek Online
+  price='Información sobre el pack' | p=nan | name=Disney Speedstorm
+  price='Free to Play' | p=nan | name=Brawlhalla
+  price='Free to Play' | p=nan | name=Dota 2
+  price='Jugar' | p=nan | name=Aliens: Fireteam Elite
+  price='Descargar' | p=nan | name=The Crew™ 2
+  price='Free to Play' | p=nan | name=War Robots
+  price='Free to Play' | p=nan | name=World of Tanks
+  price='Free to Play' | p=nan | name=Team Fortress 2
+  price='Free to Play' | p=nan | name=Tower of Fantasy
+  price='Descargar' | p=nan | name=MONSTER HUNTER RISE
+  price='Free to Play' | p=nan | name=World of Warships
+  price='Descargar' | p=nan | name=Contraband Police
+  price='Gratuito' | p=nan | name=DCS World Steam Edition
+  price='Free to Play' | p=nan | name=World of Tanks Blitz
+  price='Free to Play' | p=nan | name=Caliber
+  price='Free to Play' | p=nan | name=Summoners' War: Chronicles
+  price='Free to Play' | p=nan | name=Phantasy Star Online 2 New Genesis
+  price='Descargar' | p=nan | name=Ghostrunner
+  price='Free to Play' | p=nan | name=Realm of the Mad God Exalt
+  price='Descargar' | p=nan | name=Monster Hunter Rise: Sunbreak
+
+====================================================================================================
+F. discount 字段的异常取值（被当成金额的）
+====================================================================================================
+数量: 127
+  discount='49,99€' | price='29,99€' | name=Monster Hunter: World
+  discount='29,97€' | price='Descargar' | name=HITMAN 3
+  discount='29,99€' | price='19,99€' | name=Deceive Inc.
+  discount='29,99€' | price='Información sobre el pack' | name=Disney Speedstorm
+  discount='69,99€' | price='59,99€' | name=The Last of Us™ Parte I
+  discount='59,99€' | price='39,99€' | name=STRANGER OF PARADISE FINAL FANTASY ORIGIN
+  discount='27,98€' | price='22,99€' | name=Cult of the Lamb
+  discount='39,78€' | price='24,99€' | name=Ghosts of Tabor
+  discount='29,99€' | price='29,99€' | name=Disney Speedstorm - Pack de Fundador Estándar
+  discount='69,99€' | price='69,99€' | name=Disney Speedstorm - Pack de Fundador Definiti
+  discount='49,97€' | price='29,99€' | name=World War Z
+  discount='53,97€' | price='35,99€' | name=Chivalry 2
+  discount='49,98€' | price='Free to Play' | name=Conqueror's Blade
+  discount='48,46€' | price='Información sobre el pack' | name=The Binding of Isaac: Repentance
+  discount='59,99€' | price='39,99€' | name=Monster Hunter World: Iceborne
+  discount='69,99€' | price='49,99€' | name=MELTY BLOOD: TYPE LUMINA
+  discount='49,99€' | price='49,99€' | name=Disney Speedstorm - Pack de Fundador Deluxe
+  discount='6,59€' | price='Jugar' | name=Just Act Natural
+  discount='6,59€' | price='6,59€' | name=Just Act Natural: Premium Version
+  discount='18,98€' | price='14,99€' | name=TowerFall Ascension

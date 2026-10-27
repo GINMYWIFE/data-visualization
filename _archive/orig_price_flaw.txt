@@ -1,0 +1,81 @@
+===============================================================================================
+A. discount_original_price 的量级分布
+===============================================================================================
+count    5487.00
+mean       46.54
+std        79.51
+min         0.20
+50%        24.99
+90%        97.50
+95%       160.64
+99%       407.37
+99.9%     948.65
+max       948.65
+
+超过 200€ 的原价行数: 175
+超过 500€ 的原价行数: 25
+超过 1000€ 的原价行数: 0
+
+===============================================================================================
+B. 超高原价行：是否同时缺失 discount_final_price（=无法交叉验证）
+===============================================================================================
+总计 175 行
+  其中 discount_final_price 缺失: 175
+  其中 discount_final_price 存在: 0
+
+按 (orig值) 分组，看是否同一数值被大量不同游戏共享（页面错位的典型特征）:
+  '948,65€'          x15   例: ['Call of Duty®: Black Ops III', 'Call of Duty®: Black Ops II', 'Call of Duty®: Black Ops', 'Call of Duty®: Modern Warfare® 2 (2009)']
+  '407,37€'          x14   例: ['Expansion - Europa Universalis IV: Emperor', 'Europa Universalis IV: Lions of the North', 'Expansion - Europa Universalis IV: Leviathan', 'Immersion Pack - Europa Universalis IV: Origins']
+  '229,33€'          x12   例: ['Stellaris: Overlord', 'Stellaris: Nemesis', 'Stellaris: Aquatics Species Pack', 'Stellaris: Federations']
+  '204,56€'          x12   例: ["Kochu's Dream", 'bobo robot', 'capy hoky', 'disc party']
+  '284,54€'          x11   例: ['X Rebirth', 'X Rebirth: Home of Light', 'X3: Terran Conflict', 'X Rebirth: The Teladi Outpost']
+  '234,42€'          x10   例: ['Split/Second', 'Disney•Pixar WALL-E', 'Disney•Pixar Cars', 'Disney Bolt']
+  '345,27€'          x10   例: ['Cities: Skylines - Airports', 'Cities: Skylines - Green Cities', 'Cities: Skylines - Parklife', 'Cities: Skylines - Campus']
+  '208,20€'          x9    例: ['Team Sonic Racing™', 'Sonic & SEGA All-Stars Racing', 'Sonic Generations Collection', 'Sonic Mania']
+  '256,41€'          x7    例: ['Need for Speed™', 'DIRT 5', 'Need for Speed™ Rivals', 'Burnout™ Paradise Remastered']
+  '340,68€'          x7    例: ['Sniper Elite: Nazi Zombie Army 2', 'Zombie Army Trilogy', 'Sniper Elite: Nazi Zombie Army', 'Aliens versus Predator Classic 2000']
+  '432,10€'          x7    例: ['Senren＊Banka', 'Aokana - Four Rhythms Across the Blue', 'Kinkoi: Golden Loveriche', 'Riddle Joker']
+  '218,47€'          x5    例: ['Worms Armageddon', 'Worms Revolution', 'Worms Clan Wars', 'Worms Ultimate Mayhem']
+  '253,75€'          x5    例: ['Expansion - Crusader Kings II: Charlemagne', 'Expansion - Crusader Kings II: Horse Lords', 'Expansion - Crusader Kings II: Rajas of India', 'Expansion - Crusader Kings II: Holy Fury']
+  '324,82€'          x5    例: ['MX vs ATV All Out', 'MX vs. ATV Reflex', 'MX vs. ATV Unleashed', 'MX vs ATV All Out - 2018 AMA Arenacross']
+  '489,52€'          x5    例: ['Acceleration of SUGURI 2', 'Sora', 'Neko Navy', 'QP Shooting - Dangerous!!']
+
+===============================================================================================
+C. 自洽性检验：orig / price 比值分布（折后价应 >= 原价*0.5 才合理）
+===============================================================================================
+比值分位: {0.5: 2.5, 0.9: 10.2, 0.95: 18.07, 0.99: 46.52, 0.999: 72.53}
+比值 > 2 的行数: 3276  (5046)
+比值 > 5 的行数: 1342
+
+比值 > 5 的样本:
+  orig=    147.8 price=    0.99 ratio=  149.3 disc='-45%' final=nan | Doodle God: Alchemy Jam
+  orig=   753.63 price=    5.89 ratio=  128.0 disc='-15%' final=nan | Fantasy Grounds - Starfinder RPG - Soc
+  orig=   340.68 price=    2.99 ratio=  113.9 disc='-18%' final=nan | Lords of the Realm II
+  orig=   407.37 price=    4.99 ratio=   81.6 disc='-10%' final=nan | Expansion - Europa Universalis IV: Res
+  orig=   186.96 price=    2.39 ratio=   78.2 disc='-23%' final=nan | STAR WARS™ Jedi Knight - Mysteries of 
+  orig=   707.92 price=    9.75 ratio=   72.6 disc='-20%' final=nan | Fantasy Grounds - D&D Classics - Night
+  orig=   105.73 price=    1.49 ratio=   71.0 disc='-15%' final=nan | Arma 3 Karts
+  orig=    208.2 price=    2.99 ratio=   69.6 disc='-10%' final=nan | SONIC ADVENTURE 2: BATTLE
+  orig=   345.27 price=    4.99 ratio=   69.2 disc='-9%' final=nan | Cities: Skylines - Content Creator Pac
+  orig=   345.27 price=    4.99 ratio=   69.2 disc='-9%' final=nan | Cities: Skylines - Content Creator Pac
+  orig=   345.27 price=    4.99 ratio=   69.2 disc='-9%' final=nan | Cities: Skylines - Content Creator Pac
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | bobo robot
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | capy hoky
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | disc party
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | Ginseng Hero
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | helionaut
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | Bloks
+  orig=   204.56 price=    2.99 ratio=   68.4 disc='-40%' final=nan | Lairchitect
+  orig=   340.68 price=    4.99 ratio=   68.3 disc='-18%' final=nan | Aliens versus Predator Classic 2000
+  orig=   340.68 price=    4.99 ratio=   68.3 disc='-18%' final=nan | Lords of Magic: Special Edition
+
+===============================================================================================
+D. 有 orig 无 final（无法交叉验证）vs 有 orig 有 final（可验证）的量级对比
+===============================================================================================
+  orig有、final无: n=3305  orig中位数=37.84  orig>200占比=5.23%
+  orig有、final有: n=1741  orig中位数=9.99  orig>200占比=0.00%
+
+===============================================================================================
+E. 用可验证子集推断规则：orig 缺失时能否用 price 反推原价
+===============================================================================================
+  用 orig*(1-pct) 预测 final 的样本 n=1740, 吻合率=99.14%

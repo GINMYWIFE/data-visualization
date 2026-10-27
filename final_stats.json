@@ -1,0 +1,211 @@
+{
+  "clean_shape": [
+    10941,
+    39
+  ],
+  "price_status": {
+    "numeric": 9533,
+    "free": 1202,
+    "demo_trial": 115,
+    "pack": 82,
+    "missing": 9
+  },
+  "is_dlc_n": 1917,
+  "genre_n": 19,
+  "dev_n": 6067,
+  "pub_n": 4607,
+  "price_valid": 9533,
+  "date_parsed": 10917,
+  "year_min": 1984,
+  "year_max": 2023,
+  "all_reviews_n": 4011,
+  "recent_reviews_n": 9333,
+  "metacritic_n": 1834,
+  "dup_name": 0,
+  "outlier_n": 361,
+  "tags_n": 168329,
+  "year_1984_1999": 92,
+  "year_2000_2009": 398,
+  "year_2010_2014": 794,
+  "year_2015_2019": 3192,
+  "year_2020_2023": 6441,
+  "band_table": [
+    {
+      "pb": "免费",
+      "n": 1202,
+      "mean_sent": 3.3676470588235294,
+      "med_rev": 3191.5
+    },
+    {
+      "pb": "0-5€",
+      "n": 2160,
+      "mean_sent": 3.882494004796163,
+      "med_rev": 2235.0
+    },
+    {
+      "pb": "5-10€",
+      "n": 2444,
+      "mean_sent": 3.78,
+      "med_rev": 2155.5
+    },
+    {
+      "pb": "10-20€",
+      "n": 3021,
+      "mean_sent": 3.812009419152276,
+      "med_rev": 2736.0
+    },
+    {
+      "pb": "20-30€",
+      "n": 1078,
+      "mean_sent": 3.7223168654173766,
+      "med_rev": 3769.0
+    },
+    {
+      "pb": "30-50€",
+      "n": 601,
+      "mean_sent": 3.437125748502994,
+      "med_rev": 4696.0
+    },
+    {
+      "pb": "50-100€",
+      "n": 215,
+      "mean_sent": 3.311320754716981,
+      "med_rev": 7735.0
+    },
+    {
+      "pb": ">100€",
+      "n": 13,
+      "mean_sent": 3.75,
+      "med_rev": 7183.0
+    },
+    {
+      "pb": "试玩版",
+      "n": 115,
+      "mean_sent": 3.646153846153846,
+      "med_rev": 3804.0
+    },
+    {
+      "pb": "捆绑包",
+      "n": 82,
+      "mean_sent": 3.4464285714285716,
+      "med_rev": 6091.0
+    }
+  ],
+  "genre_table": [
+    {
+      "genre": "Acción",
+      "n": 4806,
+      "price": 9.99,
+      "sent": 3.6074626865671644,
+      "heat": 3715.5
+    },
+    {
+      "genre": "Aventura",
+      "n": 1693,
+      "price": 9.75,
+      "sent": 3.943313953488372,
+      "heat": 2320.5
+    },
+    {
+      "genre": "Indie",
+      "n": 1294,
+      "price": 11.99,
+      "sent": 3.854619565217391,
+      "heat": 2377.0
+    },
+    {
+      "genre": "Casual",
+      "n": 1138,
+      "price": 6.71,
+      "sent": 3.8733974358974357,
+      "heat": 1938.0
+    },
+    {
+      "genre": "Simuladores",
+      "n": 654,
+      "price": 14.99,
+      "sent": 3.3323529411764707,
+      "heat": 2351.5
+    },
+    {
+      "genre": "Rol",
+      "n": 381,
+      "price": 14.99,
+      "sent": 3.598901098901099,
+      "heat": 2957.0
+    },
+    {
+      "genre": "Estrategia",
+      "n": 346,
+      "price": 9.99,
+      "sent": 3.7304347826086954,
+      "heat": 4794.0
+    },
+    {
+      "genre": "Carreras",
+      "n": 299,
+      "price": 5.99,
+      "sent": 3.391304347826087,
+      "heat": 1902.0
+    },
+    {
+      "genre": "Free to Play",
+      "n": 171,
+      "price": 19.5,
+      "sent": 2.8445945945945947,
+      "heat": 2437.5
+    },
+    {
+      "genre": "Deportes",
+      "n": 88,
+      "price": 8.19,
+      "sent": 3.2,
+      "heat": 3068.0
+    }
+  ],
+  "miss_all_reviews": {
+    "dlc": 90.98,
+    "main": 57.49
+  },
+  "miss_short_description": {
+    "dlc": 100.0,
+    "main": 0.0
+  },
+  "miss_metacritic_score": {
+    "dlc": 96.92,
+    "main": 80.34
+  },
+  "miss_price": {
+    "dlc": 0.0,
+    "main": 0.1
+  },
+  "corr": {
+    "price_vs_sent": -0.1222,
+    "price_vs_log_rev": 0.1787,
+    "logrev_vs_sent": 0.2477,
+    "metacritic_vs_sent": 0.408,
+    "price_vs_metacritic": 0.136
+  },
+  "sent_dist": {
+    "0.0": 2,
+    "0.5": 2,
+    "1.0": 29,
+    "1.5": 431,
+    "2.0": 30,
+    "3.0": 632,
+    "4.0": 2290,
+    "5.0": 595
+  },
+  "rc_all_stats": {
+    "count": 4011.0,
+    "mean": 15205.8,
+    "std": 59812.7,
+    "min": 10.0,
+    "25%": 1067.5,
+    "50%": 2984.0,
+    "75%": 9387.5,
+    "90%": 28529.0,
+    "99%": 199705.9,
+    "max": 1969821.0
+  }
+}

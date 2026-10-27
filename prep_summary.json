@@ -1,0 +1,157 @@
+{
+  "raw_rows": 10948,
+  "raw_cols": 25,
+  "date_parsed": 10924,
+  "date_unparsed": 24,
+  "date_range": [
+    "1984-04-29",
+    "2023-04-23"
+  ],
+  "year_dist": {
+    "1984.0": 1,
+    "1987.0": 1,
+    "1988.0": 3,
+    "1989.0": 2,
+    "1990.0": 4,
+    "1992.0": 2,
+    "1993.0": 3,
+    "1994.0": 11,
+    "1995.0": 7,
+    "1996.0": 9,
+    "1997.0": 19,
+    "1998.0": 12,
+    "1999.0": 18,
+    "2000.0": 20,
+    "2001.0": 25,
+    "2002.0": 24,
+    "2003.0": 34,
+    "2004.0": 25,
+    "2005.0": 36,
+    "2006.0": 61,
+    "2007.0": 42,
+    "2008.0": 49,
+    "2009.0": 82,
+    "2010.0": 76,
+    "2011.0": 93,
+    "2012.0": 130,
+    "2013.0": 183,
+    "2014.0": 312,
+    "2015.0": 396,
+    "2016.0": 571,
+    "2017.0": 691,
+    "2018.0": 732,
+    "2019.0": 803,
+    "2020.0": 1158,
+    "2021.0": 1615,
+    "2022.0": 2332,
+    "2023.0": 1342
+  },
+  "price_numeric_n": 9540,
+  "price_status": {
+    "numeric": 9540,
+    "free": 1202,
+    "demo_trial": 115,
+    "pack": 82,
+    "missing": 9
+  },
+  "is_free_n": 1202,
+  "is_demo_n": 115,
+  "price_true_na": 9,
+  "dup_by_name": 7,
+  "dup_full": 0,
+  "sent_all_unparsed": 0,
+  "sent_recent_unparsed": 1183,
+  "recent_low_sample": 1183,
+  "is_subscription_n": 61,
+  "price_eur_max": 194.99,
+  "price_eur_gt100_n": 7,
+  "price_list_max": 194.99,
+  "price_list_gt100_n": 13,
+  "price_list_gt200_n": 0,
+  "orig_verified_n": 1912,
+  "orig_unverified_n": 3575,
+  "rows_after_dedup": 10941,
+  "rows_removed_dedup": 7,
+  "price_iqr": {
+    "q1": 4.99,
+    "q3": 19.5,
+    "upper_fence": 41.265,
+    "n_outlier": 361
+  },
+  "price_3sigma": {
+    "mean": 13.735451589216407,
+    "std": 13.011520263434585,
+    "upper": 52.77001237952017,
+    "n_outlier": 188
+  },
+  "discount_consistency_rate": 0.9853403141361257,
+  "n_discount_checked": 1910,
+  "review_logic_violations": 0,
+  "reviews_anomally_true": 90,
+  "price_fill_median": 9.99,
+  "clean_shape": [
+    10941,
+    38
+  ],
+  "tags_long_shape": [
+    168329,
+    6
+  ],
+  "file_sizes_mb": {
+    "steam_games.csv": 8.81,
+    "steam_clean.csv": 6.41,
+    "steam_tags_long.csv": 8.75
+  },
+  "corr": {
+    "price_vs_sentiment_all": -0.1222,
+    "price_vs_log_reviews": 0.1787,
+    "log_reviews_vs_sentiment_all": 0.2477,
+    "listprice_vs_sentiment_all": -0.1496,
+    "listprice_vs_log_reviews": 0.2131,
+    "metacritic_vs_sentiment_all": 0.408
+  },
+  "price_band_table": [
+    {
+      "price_band": "0-5€",
+      "n": 417,
+      "mean_sent": 3.882494004796163,
+      "median_reviews": 2235.0
+    },
+    {
+      "price_band": "5-10€",
+      "n": 550,
+      "mean_sent": 3.78,
+      "median_reviews": 2155.5
+    },
+    {
+      "price_band": "10-20€",
+      "n": 1274,
+      "mean_sent": 3.812009419152276,
+      "median_reviews": 2736.0
+    },
+    {
+      "price_band": "20-30€",
+      "n": 587,
+      "mean_sent": 3.7223168654173766,
+      "median_reviews": 3769.0
+    },
+    {
+      "price_band": "30-50€",
+      "n": 334,
+      "mean_sent": 3.437125748502994,
+      "median_reviews": 4696.0
+    },
+    {
+      "price_band": "50-100€",
+      "n": 106,
+      "mean_sent": 3.311320754716981,
+      "median_reviews": 7735.0
+    },
+    {
+      "price_band": ">100€",
+      "n": 4,
+      "mean_sent": 3.75,
+      "median_reviews": 7183.0
+    }
+  ]
+}

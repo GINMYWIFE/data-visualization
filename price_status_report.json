@@ -1,0 +1,27 @@
+{
+  "price_status": {
+    "numeric": 9540,
+    "free": 1202,
+    "demo_trial": 107,
+    "pack": 82,
+    "missing": 17
+  },
+  "other_text_samples": {},
+  "other_text_uniq": 0,
+  "crosstab": {
+    "false": {
+      "demo_trial": 106,
+      "free": 1190,
+      "missing": 17,
+      "numeric": 7652,
+      "pack": 65
+    },
+    "true": {
+      "demo_trial": 1,
+      "free": 12,
+      "missing": 0,
+      "numeric": 1888,
+      "pack": 17
+    }
+  }
+}

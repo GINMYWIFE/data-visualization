@@ -1,0 +1,107 @@
+'Free to Play'	n=566	dlc=2	genre={'Acción': 267, 'Free to Play': 113}
+'Descargar'	n=499	dlc=5	genre={'Acción': 219, 'Aventura': 102}
+'Gratuito'	n=112	dlc=5	genre={'Acción': 50, 'Casual': 17}
+'Datos del pack'	n=58	dlc=1	genre={'Acción': 31, 'Estrategia': 8}
+'Información sobre el pack'	n=24	dlc=16	genre={'Acción': 20, 'Aventura': 2}
+'Jugar'	n=14	dlc=0	genre={'Acción': 9, 'Simuladores': 2}
+'Instalar juego'	n=7	dlc=0	genre={'Acción': 4, 'Free to Play': 2}
+'Demo'	n=5	dlc=0	genre={'Acción': 3, 'Indie': 2}
+'Más información'	n=4	dlc=0	genre={'Acción': 2, 'Rol': 1}
+'Free'	n=4	dlc=0	genre={'Aventura': 3, 'Rol': 1}
+'Free Demo'	n=3	dlc=0	genre={'Aventura': 2, 'Acción': 1}
+'¡Juega gratis!'	n=2	dlc=0	genre={'Acción': 2}
+'FREE DEMO - Try before you buy!'	n=2	dlc=0	genre={'Acción': 2}
+'The Crew Trial'	n=1	dlc=0	genre={'Acción': 1}
+'Dead Estate Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Try AMID EVIL (RTX Supported)'	n=1	dlc=0	genre={'Acción': 1}
+'COMPOUND demo'	n=1	dlc=0	genre={'Acción': 1}
+'Shadow of the Tomb Raider Free Trial'	n=1	dlc=0	genre={'Acción': 1}
+'Note: Your saved progress will transfer to the full game, if purchased.'	n=1	dlc=0	genre={'Acción': 1}
+'Them and Us Demo'	n=1	dlc=0	genre={'Acción': 1}
+'FINAL FANTASY XV WINDOWS EDITION PLAYABLE DEMO'	n=1	dlc=0	genre={'Rol': 1}
+'Demo Middle-earth™: Shadow of War™'	n=1	dlc=0	genre={'Acción': 1}
+'Cat Quest II Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Ghostrunner - Demo'	n=1	dlc=1	genre={'Acción': 1}
+'Install Demo'	n=1	dlc=0	genre={'Acción': 1}
+'do it (✿◕‿◕)'	n=1	dlc=0	genre={'Acción': 1}
+'Blasphemous Demo'	n=1	dlc=0	genre={'Acción': 1}
+'PLAY WITH US!'	n=1	dlc=0	genre={'Aventura': 1}
+"It Takes Two Friend's Pass"	n=1	dlc=0	genre={'Acción': 1}
+'We Were Here Together Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Kickstarter Demo'	n=1	dlc=0	genre={'Casual': 1}
+'UNO'	n=1	dlc=0	genre={'Casual': 1}
+'Bad North Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Dex Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Install Free Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Download PSYCRON demo'	n=1	dlc=0	genre={'Acción': 1}
+'Ato Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Demo Version'	n=1	dlc=0	genre={'Acción': 1}
+'Monster Prom Demo'	n=1	dlc=0	genre={'Indie': 1}
+'Click the button and become a Roadwarden!'	n=1	dlc=0	genre={'Aventura': 1}
+"Love, Money, Rock'n'Roll Demo"	n=1	dlc=0	genre={'Aventura': 1}
+'Little Misfortune Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Download Syberia - The World Before Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Install the free demo'	n=1	dlc=0	genre={'Indie': 1}
+'CrossCode Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Mortuary Assistant Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Join the Common'	n=1	dlc=0	genre={'Indie': 1}
+'Play for free - defend the Bunker !!'	n=1	dlc=0	genre={'Acción': 1}
+'Factorio Demo'	n=1	dlc=0	genre={'Casual': 1}
+'Try the Demo!'	n=1	dlc=0	genre={'Indie': 1}
+'Learn to Play Edition'	n=1	dlc=0	genre={'Indie': 1}
+'PolyCore Defense Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Unholy Heights Trial Version'	n=1	dlc=0	genre={'Indie': 1}
+'Realpolitiks Demo'	n=1	dlc=0	genre={'Estrategia': 1}
+'You Suck at Parking™ Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Try Demo'	n=1	dlc=0	genre={'Indie': 1}
+'Try it NOW! Dynasty DLC is FREE!'	n=1	dlc=0	genre={'Acción': 1}
+'Hunting Simulator Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Start your training now!'	n=1	dlc=0	genre={'Acción': 1}
+'Soundpad Demo'	n=1	dlc=0	genre={'Producción de audio': 1}
+'for Buddy Pass Users Only'	n=1	dlc=0	genre={'Acción': 1}
+'Total Lockdown Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Try it now!'	n=1	dlc=0	genre={'Acción': 1}
+'Mech Merc Company Demo'	n=1	dlc=0	genre={'Indie': 1}
+'Cat Quest Demo'	n=1	dlc=0	genre={'Acción': 1}
+'DEMO'	n=1	dlc=0	genre={'Acción': 1}
+'Punhos de Repúdio Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Get Tasty!'	n=1	dlc=0	genre={'Acción': 1}
+'Project META - Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Try the demo'	n=1	dlc=0	genre={'Acción': 1}
+'FREE DOWNLOAD'	n=1	dlc=0	genre={'Acción': 1}
+'FREE DEMO'	n=1	dlc=0	genre={'Acción': 1}
+'Quant Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Flippin Kaktus Demo'	n=1	dlc=0	genre={'Acción': 1}
+'🌈Click Here-->'	n=1	dlc=0	genre={'Acción': 1}
+'eden* Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Dry Drowning Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Sizeable Demo'	n=1	dlc=0	genre={'Casual': 1}
+'Silence Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Nine Noir Lives Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Play demo for free'	n=1	dlc=0	genre={'Rol': 1}
+'Kitaria Fables Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Try it now for free!'	n=1	dlc=0	genre={'Casual': 1}
+'Play Now!'	n=1	dlc=0	genre={'Casual': 1}
+'Try the demo for free!'	n=1	dlc=0	genre={'Casual': 1}
+'To The Rescue! Demo'	n=1	dlc=0	genre={'Casual': 1}
+'Download Demo Now!'	n=1	dlc=0	genre={'Indie': 1}
+'Rodina Demo'	n=1	dlc=0	genre={'Acción': 1}
+'DwarfHeim: Friend-Pass'	n=1	dlc=0	genre={'Simuladores': 1}
+'Summer Islands Demo'	n=1	dlc=0	genre={'Indie': 1}
+'The Last Roman Village Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Free demo'	n=1	dlc=0	genre={'Indie': 1}
+'Beta version of the game'	n=1	dlc=0	genre={'Indie': 1}
+'越国试玩'	n=1	dlc=0	genre={'Casual': 1}
+'巴国试玩'	n=1	dlc=0	genre={'Casual': 1}
+'Try Demo!'	n=1	dlc=0	genre={'Indie': 1}
+'Solicitar acceso'	n=1	dlc=0	genre={'Acción': 1}
+'Try the free demo!'	n=1	dlc=0	genre={'Indie': 1}
+'Handpass VR Demo'	n=1	dlc=0	genre={'Indie': 1}
+"The Signifier Director's Cut Demo"	n=1	dlc=0	genre={'Aventura': 1}
+'Try the free demo:'	n=1	dlc=0	genre={'Carreras': 1}
+'Home Sweet Home Demo'	n=1	dlc=0	genre={'Aventura': 1}
+'Moving Out Demo'	n=1	dlc=0	genre={'Acción': 1}
+'Free To Play'	n=1	dlc=0	genre={'Free to Play': 1}
+TOTAL_TEXT	1391
+TOTAL_NA_PRICE	9
+NUMERIC	9548

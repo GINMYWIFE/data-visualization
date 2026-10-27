@@ -1,0 +1,250 @@
+{
+  "price_parse_fail_n": 1391,
+  "price_parse_fail_samples": {
+    "Free to Play": 566,
+    "Descargar": 499,
+    "Gratuito": 112,
+    "Datos del pack": 58,
+    "Información sobre el pack": 24,
+    "Jugar": 14,
+    "Instalar juego": 7,
+    "Demo": 5,
+    "Más información": 4,
+    "Free": 4
+  },
+  "price_fail_by_isdlc": {
+    "false": 1361,
+    "true": 30
+  },
+  "price_fail_by_genre": {
+    "Acción": 653,
+    "Aventura": 217,
+    "Casual": 168,
+    "Free to Play": 131,
+    "Indie": 99
+  },
+  "price_missing_by_isdlc": {
+    "false": 9
+  },
+  "price_missing_by_genre_top": {
+    "Acción": 4,
+    "Simuladores": 2,
+    "Indie": 1,
+    "Free to Play": 1,
+    "Casual": 1
+  },
+  "price_nonnull_by_isdlc": {
+    "false": 9021,
+    "true": 1918
+  },
+  "date_unparsed_n": 3710,
+  "date_unparsed_samples": {
+    "12 ENE 2022": 47,
+    "18 ABR 2023": 38,
+    "13 ABR 2023": 35,
+    "20 ABR 2023": 35,
+    "6 DIC 2022": 25,
+    "21 ABR 2023": 25,
+    "8 DIC 2022": 25,
+    "6 ABR 2023": 24,
+    "15 DIC 2022": 23,
+    "11 ABR 2023": 23,
+    "19 ABR 2023": 23,
+    "12 ABR 2023": 20,
+    "30 AGO 2022": 19,
+    "28 ABR 2022": 19,
+    "21 ABR 2022": 18
+  },
+  "date_unparsed_by_isdlc": {
+    "false": 3079,
+    "true": 631
+  },
+  "date_blank_str": 11,
+  "date_na_by_isdlc": {
+    "false": 10,
+    "true": 1
+  },
+  "sent_recent_unparsed_n": 1198,
+  "sent_all_unparsed_n": 0,
+  "sent_recent_unparsed_samples": {
+    "1 reseña(s) de usuario(s)": 215,
+    "2 reseña(s) de usuario(s)": 207,
+    "3 reseña(s) de usuario(s)": 149,
+    "4 reseña(s) de usuario(s)": 143,
+    "5 reseña(s) de usuario(s)": 104,
+    "6 reseña(s) de usuario(s)": 102,
+    "8 reseña(s) de usuario(s)": 91,
+    "7 reseña(s) de usuario(s)": 90,
+    "9 reseña(s) de usuario(s)": 82,
+    "Negativas": 15
+  },
+  "sent_all_unparsed_samples": {},
+  "all_reviews_missing_by_isdlc": {
+    "false": 5191,
+    "true": 1745
+  },
+  "all_reviews_missing_year_dist": {
+    "2013.0": 120,
+    "2014.0": 223,
+    "2015.0": 261,
+    "2016.0": 379,
+    "2017.0": 449,
+    "2018.0": 496,
+    "2019.0": 554,
+    "2020.0": 797,
+    "2021.0": 1111,
+    "2022.0": 1524,
+    "2023.0": 734,
+    "NaN": 3721
+  },
+  "all_reviews_missing_price_missing_pct": 0.06,
+  "all_reviews_present_price_missing_pct": 0.12,
+  "n_corr_sample": 3280,
+  "corr": {
+    "price_vs_sent_all": -0.0572,
+    "price_vs_sent_recent": -0.0482,
+    "log_rc_all_vs_sent_all": 0.2489,
+    "price_vs_log_rc_all": 0.1467,
+    "metacritic_vs_sent_all": 0.408,
+    "price_vs_metacritic": -0.0766
+  },
+  "price_band_sent_all": [
+    {
+      "price_band": "(0, 5]",
+      "n": 359,
+      "mean_sent": 3.882,
+      "mean_log_rc": 7.726
+    },
+    {
+      "price_band": "(5, 10]",
+      "n": 477,
+      "mean_sent": 3.847,
+      "mean_log_rc": 7.749
+    },
+    {
+      "price_band": "(10, 20]",
+      "n": 1120,
+      "mean_sent": 3.848,
+      "mean_log_rc": 7.981
+    },
+    {
+      "price_band": "(20, 30]",
+      "n": 543,
+      "mean_sent": 3.731,
+      "mean_log_rc": 8.263
+    },
+    {
+      "price_band": "(30, 50]",
+      "n": 414,
+      "mean_sent": 3.489,
+      "mean_log_rc": 8.271
+    },
+    {
+      "price_band": "(50, 100]",
+      "n": 366,
+      "mean_sent": 3.474,
+      "mean_log_rc": 8.327
+    }
+  ],
+  "rc_all_stats": {
+    "count": 4012.0,
+    "mean": 15202.1,
+    "std": 59805.7,
+    "min": 10.0,
+    "25%": 1066.0,
+    "50%": 2982.5,
+    "75%": 9381.8,
+    "90%": 28524.8,
+    "99%": 199668.8,
+    "max": 1969821.0
+  },
+  "rc_recent_stats": {
+    "count": 9337.0,
+    "mean": 342.4,
+    "std": 2240.0,
+    "min": 10.0,
+    "25%": 25.0,
+    "50%": 75.0,
+    "75%": 263.0,
+    "90%": 713.4,
+    "99%": 3273.2,
+    "max": 155418.0
+  },
+  "rc_log10_decile": {
+    "count": 4012.0,
+    "mean": 3.505,
+    "std": 0.739,
+    "min": 1.0,
+    "10%": 2.61,
+    "25%": 3.028,
+    "50%": 3.475,
+    "75%": 3.972,
+    "90%": 4.455,
+    "max": 6.294
+  },
+  "genre_agg": {
+    "n": {
+      "Acción": 4809.0,
+      "Aventura": 1693.0,
+      "Indie": 1296.0,
+      "Casual": 1140.0,
+      "Simuladores": 654.0,
+      "Rol": 381.0,
+      "Estrategia": 346.0,
+      "Carreras": 299.0,
+      "Free to Play": 171.0,
+      "Deportes": 88.0,
+      "Multijugador masivo": 46.0
+    },
+    "price_med": {
+      "Acción": 14.99,
+      "Aventura": 16.79,
+      "Indie": 14.79,
+      "Casual": 9.75,
+      "Simuladores": 18.99,
+      "Rol": 19.99,
+      "Estrategia": 12.99,
+      "Carreras": 9.99,
+      "Free to Play": 19.5,
+      "Deportes": 8.49,
+      "Multijugador masivo": 4.49
+    },
+    "rc_all_med": {
+      "Acción": 3706.0,
+      "Aventura": 2320.5,
+      "Indie": 2377.0,
+      "Casual": 1938.0,
+      "Simuladores": 2351.5,
+      "Rol": 2957.0,
+      "Estrategia": 4794.0,
+      "Carreras": 1902.0,
+      "Free to Play": 2437.5,
+      "Deportes": 3068.0,
+      "Multijugador masivo": 2139.5
+    },
+    "sent_all_mean": {
+      "Acción": 3.607,
+      "Aventura": 3.943,
+      "Indie": 3.855,
+      "Casual": 3.873,
+      "Simuladores": 3.332,
+      "Rol": 3.599,
+      "Estrategia": 3.73,
+      "Carreras": 3.391,
+      "Free to Play": 2.845,
+      "Deportes": 3.2,
+      "Multijugador masivo": 3.5
+    }
+  },
+  "n_discount_rows": 1913,
+  "discount_dist": {
+    "-10%": 1419,
+    "-20%": 585,
+    "-15%": 506,
+    "-50%": 474,
+    "-25%": 389,
+    "-30%": 294,
+    "-40%": 176,
+    "-75%": 175
+  }
+}

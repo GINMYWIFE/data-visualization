@@ -1,0 +1,255 @@
+===============================================================================================
+Call of Duty 系列原始三价格字段
+===============================================================================================
+  Call of Duty®: Black Ops Cold War
+    price                  = '59,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Modern Warfare® II - BlackCell (Tem
+    price                  = '29,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Modern Warfare® II - Paquete Profes
+    price                  = '19,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Black Ops III
+    price                  = '14,49€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Black Ops II
+    price                  = '49,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Black Ops
+    price                  = '39,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Modern Warfare®
+    price                  = '59,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Modern Warfare® 2 (2009)
+    price                  = '19,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Modern Warfare® II - Paquete profes
+    price                  = '19,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Vanguard
+    price                  = '59,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty: World at War
+    price                  = '19,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: WWII
+    price                  = '59,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Black Ops III - Zombies Chronicles
+    price                  = '29,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Modern Warfare® Remastered (2017)
+    price                  = '39,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Infinite Warfare
+    price                  = '29,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty: United Offensive
+    price                  = '19,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Black Ops III - The Giant Zombies M
+    price                  = '5,99€'
+    discount_original_price= nan
+    discount_final_price   = nan
+    discount               = nan
+  Call of Duty®: Ghosts
+    price                  = '49,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty® 4: Modern Warfare® (2007)
+    price                  = '19,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+  Call of Duty®: Advanced Warfare - Gold Edition
+    price                  = '49,99€'
+    discount_original_price= '948,65€'
+    discount_final_price   = nan
+    discount               = '-10%'
+
+===============================================================================================
+discount_original_price 字段的所有去重取值（前 40）
+===============================================================================================
+    190x  '9,99€'
+    127x  '19,99€'
+    120x  '8,19€'
+    106x  '14,99€'
+     97x  '4,99€'
+     84x  '3,99€'
+     78x  '16,79€'
+     63x  '29,99€'
+     62x  '12,49€'
+     53x  '1,99€'
+     52x  '6,99€'
+     45x  '24,99€'
+     44x  '7,99€'
+     42x  '9,75€'
+     41x  '19,50€'
+     40x  '1 376,14€'
+     37x  '2,99€'
+     33x  '0,79€'
+     31x  '0,99€'
+     27x  '39,99€'
+     26x  '22,48€'
+     26x  '5,69€'
+     25x  '20,99€'
+     25x  '11,59€'
+     22x  '8,99€'
+     22x  '1,49€'
+     21x  '97,50€'
+     20x  '14,79€'
+     20x  '186,96€'
+     20x  '3,29€'
+     19x  '6,59€'
+     19x  '99,45€'
+     18x  '11,99€'
+     18x  '5,99€'
+     17x  '26,98€'
+     17x  '12,99€'
+     17x  '52,31€'
+     15x  '948,65€'
+     15x  '158,80€'
+     15x  '1,59€'
+
+===============================================================================================
+discount_final_price 字段的所有去重取值（前 40）
+===============================================================================================
+     77x  '4,99€'
+     70x  '1,99€'
+     68x  '4,09€'
+     55x  '2,99€'
+     49x  '3,99€'
+     46x  '2,49€'
+     40x  '7,49€'
+     37x  '0,99€'
+     34x  '3,49€'
+     33x  '5,99€'
+     31x  '1,49€'
+     30x  '3,74€'
+     26x  '9,75€'
+     25x  '9,99€'
+     23x  '8,39€'
+     23x  '1,11€'
+     21x  '11,99€'
+     21x  '0,49€'
+     20x  '6,99€'
+     20x  '5,79€'
+     19x  '2,79€'
+     19x  '4,49€'
+     17x  '1,19€'
+     17x  '0,89€'
+     16x  '14,99€'
+     16x  '2,24€'
+     15x  '7,99€'
+     15x  '0,22€'
+     14x  '6,24€'
+     13x  '8,99€'
+     13x  '0,79€'
+     13x  '1,24€'
+     12x  '1,39€'
+     12x  '4,19€'
+     12x  '2,39€'
+     12x  '0,39€'
+     12x  '0,59€'
+     11x  '10,49€'
+     11x  '13,99€'
+     11x  '6,89€'
+
+===============================================================================================
+discount 字段所有去重取值（前 40）
+===============================================================================================
+   1419x  '-10%'
+    585x  '-20%'
+    506x  '-15%'
+    474x  '-50%'
+    389x  '-25%'
+    294x  '-30%'
+    176x  '-40%'
+    175x  '-75%'
+    165x  '-80%'
+    136x  '-60%'
+    136x  '-90%'
+    112x  '-35%'
+    108x  '-70%'
+    107x  '-5%'
+     55x  '-33%'
+     54x  '-65%'
+     47x  '-26%'
+     41x  '-17%'
+     41x  '-45%'
+     39x  '-85%'
+     35x  '-12%'
+     30x  '-34%'
+     30x  '-23%'
+     29x  '-55%'
+     24x  '-29%'
+     23x  '-13%'
+     23x  '-11%'
+     23x  '-51%'
+     22x  '-67%'
+     21x  '-61%'
+     20x  '-14%'
+     20x  '-24%'
+     19x  '-18%'
+     18x  '-6%'
+     18x  '-72%'
+     17x  '-21%'
+     16x  '-66%'
+     16x  '-46%'
+     15x  '-9%'
+     14x  '-37%'
+
+===============================================================================================
+是否存在 discount 字段为金额、且 == discount_original_price 的情况
+===============================================================================================
+discount 含 € 的行数: 127
+  discount='49,99€' orig=nan final=nan price='29,99€' | Monster Hunter: World
+  discount='29,97€' orig=nan final=nan price='Descargar' | HITMAN 3
+  discount='29,99€' orig=nan final=nan price='19,99€' | Deceive Inc.
+  discount='29,99€' orig=nan final=nan price='Información sobre el pack' | Disney Speedstorm
+  discount='69,99€' orig=nan final=nan price='59,99€' | The Last of Us™ Parte I
+  discount='59,99€' orig=nan final=nan price='39,99€' | STRANGER OF PARADISE FINAL FANTASY ORIGI
+  discount='27,98€' orig=nan final=nan price='22,99€' | Cult of the Lamb
+  discount='39,78€' orig=nan final=nan price='24,99€' | Ghosts of Tabor
+  discount='29,99€' orig=nan final=nan price='29,99€' | Disney Speedstorm - Pack de Fundador Est
+  discount='69,99€' orig=nan final=nan price='69,99€' | Disney Speedstorm - Pack de Fundador Def
+  discount='49,97€' orig=nan final=nan price='29,99€' | World War Z
+  discount='53,97€' orig=nan final=nan price='35,99€' | Chivalry 2
+  discount='49,98€' orig=nan final=nan price='Free to Play' | Conqueror's Blade
+  discount='48,46€' orig='75,52€' final=nan price='Información sobre el pack' | The Binding of Isaac: Repentance
+  discount='59,99€' orig=nan final=nan price='39,99€' | Monster Hunter World: Iceborne
